@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/negro"
+    tools:context=".view.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        android:scaleType="fitXY"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="43"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:background="@color/blanco">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="36sp" />
+
+        <View
+            android:id="@+id/linea"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5">
+        </View>
+
+        <TextView
+            android:id="@+id/genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/lima"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ficha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/linea2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#ffd5d5d5">
+        </View>
+
+        <TextView
+            android:id="@+id/cine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Large Text"
+            android:textColor="@color/verde"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+
+        <Button
+            android:id="@+id/btnCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:background="@drawable/button"
+            android:text="TICKET   "
+            android:textSize="18sp"
+            android:drawableRight="@drawable/compra_icon"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+
+        <Button
+            android:id="@+id/btnTrailer"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="20"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:background="@drawable/button"
+            android:text="TRAILER  "
+            android:textSize="18sp"
+            android:drawableRight="@drawable/trailer_icon"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/negro"
+    tools:context=".view.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/inicio" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:orientation="horizontal"
+                android:background="@drawable/layout">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnPeliculas"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/button"
+                        android:text="PELICULAS"
+                        android:textSize="16sp"
+                        android:drawableRight="@drawable/peliculas_icon"/>
+
+                    <Spinner
+                        android:id="@+id/spPeliculas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/spinner"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/btnGenero"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:background="@drawable/button"
+                        android:text="GÉNERO"
+                        android:textSize="16sp"
+                        android:drawableRight="@drawable/genero_icon"/>
+
+                    <Spinner
+                        android:id="@+id/spGenero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="25"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/spinner"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="40"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnCines"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:background="@drawable/button"
+                        android:text="CINES"
+                        android:textSize="16sp"
+                        android:drawableRight="@drawable/cines_icon"/>
+
+                    <Spinner
+                        android:id="@+id/spCines"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/spinner"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+
+                    <Button
+                        android:id="@+id/btnProvincia"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="25dp"
+                        android:background="@drawable/button"
+                        android:text="ZONA"
+                        android:textSize="16sp"
+                        android:drawableRight="@drawable/zona_icon"/>
+
+                    <Spinner
+                        android:id="@+id/spProvincia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="25"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:background="@drawable/spinner"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="24sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/btnCartelera"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:background="@drawable/button"
+        android:text="AHORA EN CARTELERA   "
+        android:textSize="18sp"
+        android:drawableRight="@drawable/cartelera_icon"/>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/btnTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:background="@drawable/button"
+        android:text="HISTÓRICO ENTRADAS   "
+        android:textSize="18sp"
+        android:drawableRight="@drawable/ticket_icon"/>
+
+</LinearLayout>

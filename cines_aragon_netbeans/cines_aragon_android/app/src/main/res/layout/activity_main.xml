@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:background="@color/negro"
+    tools:context=".view.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="45"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/login" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical"
+            android:weightSum="100"
+            android:background="@drawable/layout">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="11"
+                android:text="Email Usuario"
+                android:textColor="#BDBDBD"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/edtUser"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="16"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:theme="@style/MyEditTextTheme" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="11"
+                android:text="Contraseña"
+                android:textColor="#BDBDBD"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edtPass"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="16"
+                android:cursorVisible="true"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:theme="@style/MyEditTextTheme"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="13"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:background="@drawable/button"
+                android:text="LOGIN   "
+                android:textSize="18sp"
+                android:drawableRight="@drawable/login_icon"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5" />
+
+            <Button
+                android:id="@+id/btnSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="13"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:background="@drawable/button"
+                android:text="BUSCAR CINES  "
+                android:textSize="18sp"
+                android:drawableRight="@drawable/buscar_icon"/>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spBusca"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="13"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:background="@drawable/spinner"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+
+        </LinearLayout>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

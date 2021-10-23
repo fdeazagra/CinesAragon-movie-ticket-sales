@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/borde_button.xml" value="0.2" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/borde_layout.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/borde_redondo.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/borde_spinner.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/drawable/layout.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/_cines.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/activity_catalogo.xml" value="0.1648148148148148" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/ficha_pelicula.xml" value="0.25" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/film_row.xml" value="0.25" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/film_row_cines.xml" value="0.4117647058823529" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/menu_principal.xml" value="0.22" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/reproductor_trailer.xml" value="0.209375" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/layout/tickets_row.xml" value="0.209375" />
+        <entry key="..\:/Users/Fernando/Dropbox/SEAS/Trabajo Obligatorio Android/cines_aragon_android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../JavaDoc RakutenTV" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
