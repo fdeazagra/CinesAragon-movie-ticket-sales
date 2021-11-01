@@ -41,3 +41,4 @@ The database contains 4 tables: "cine" for movie theaters, "film" for movies sho
 
 ![inicio](https://github.com/fdeazagra/CinesAragon-movie-ticket-sales/blob/main/Im%C3%A1genes_README/Screenshot_20211007-003941.jpg)
 ![cartelera](https://github.com/fdeazagra/CinesAragon-movie-ticket-sales/blob/main/Im%C3%A1genes_README/Screenshot_20211007-004041.jpg)
+![menu](https://github.com/fdeazagra/CinesAragon-movie-ticket-sales/blob/main/Im%C3%A1genes_README/Screenshot_20211007-004149.jpg)
