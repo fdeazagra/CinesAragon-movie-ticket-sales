@@ -36,3 +36,7 @@ The app allows the user to buy tickets and make inquiries about movies showing i
 The database contains 4 tables: "cine" for movie theaters, "film" for movies shown in theaters, "user" for user registration and "ticket" for tickets purchased.
 
 ![tables](https://github.com/fdeazagra/CinesAragon-movie-ticket-sales/blob/main/Im%C3%A1genes_README/tables.jpg)
+
+## Screenshots:
+
+![inicio](https://github.com/fdeazagra/CinesAragon-movie-ticket-sales/blob/main/Im%C3%A1genes_README/Screenshot_20211007-003941.jpg)
